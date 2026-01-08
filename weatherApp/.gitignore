@@ -1,0 +1,25 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+*.log
+
+# Node modules or temp files (if you ever use npm)
+node_modules/
+*.tmp
+
+# Ignore other projects accidentally in the same repo
+quiz-game/
+QuizApp/
+frontend-projects/
+
+# Ignore editor settings
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS metadata
+desktop.ini
+
+# Ignore backups
+*.bak
+*.swp
