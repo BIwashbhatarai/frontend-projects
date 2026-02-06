@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Form Validator</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form">
+        <i id="icon" class="fa-regular fa-paper-plane"></i>
+        <div class="inputGroup">
+          <label for="name">Full Name</label>
+          <input type="text" placeholder="Enter your name" id="Name" onkeyup="validateName()">
+          <span id="nameError"></span>
+        </div>
+
+        <div class="inputGroup">
+          <label for="phone">Phone No.</label>
+          <input type="text" id="Phone" onkeyup="validatePhone()" placeholder="123 456 789">
+          <span id="phoneError"></span>
+        </div>
+        <div class="inputGroup">
+          <label for="email">Email Id</label>
+          <input type="text" id="Email" onkeyup="validateEmail()" placeholder="Enter Email">
+          <span id="emailError"></span>
+        </div>
+        <div class="inputGroup">
+          <label for="Password">Password</label>
+          <input type="password" id="Password" onkeyup="validatePassword()" placeholder="Enter Email password">
+          <i id="togglePass" class="fa-regular fa-eye"></i>
+          <span id="passwordError"></span>
+        </div>
+
+        <div class="inputGroup">
+          <label for="message">Your Message</label>
+          <textarea rows="5" id="Message" onkeyup="validateMessage()" placeholder="Enter your message"></textarea>
+          <span id="messageError"></span>
+        </div>
+        <button onclick="return validateForm()" type="submit">Submit</button>
+        <span id="submitError"></span>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
