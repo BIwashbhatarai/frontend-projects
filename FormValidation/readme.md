@@ -20,4 +20,4 @@ A live form validator using HTML, CSS, and JavaScript with:
 
 ### Live Demo
 
-Add a link here if hosted via GitHub Pages.
+https://github.com/BIwashbhatarai/frontend-projects/tree/main/FormValidation
