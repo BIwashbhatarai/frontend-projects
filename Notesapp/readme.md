@@ -15,10 +15,6 @@ A simple, colorful, and interactive **Notes App** built with HTML, CSS, and Java
 
 ---
 
-## Preview
-
-![App Preview](preview.png)
-
 ## Installation
 
 1. Clone the repository:
