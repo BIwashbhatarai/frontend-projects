@@ -17,10 +17,7 @@ A simple, colorful, and interactive **Notes App** built with HTML, CSS, and Java
 
 ## Preview
 
-![App Preview](preview.png)  
-_You can add a screenshot or GIF here showing your app in action._
-
----
+![App Preview](preview.png)
 
 ## Installation
 
