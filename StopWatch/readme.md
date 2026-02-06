@@ -23,10 +23,6 @@ A simple and interactive **Stopwatch** built using **HTML, CSS, and JavaScript**
 - CSS3
 - JavaScript (DOM manipulation, `setInterval`, `clearInterval`)
 
-## Screenshots
-
-![Stopwatch Screenshot](screenshot.png) <!-- Optional: add your own screenshot here -->
-
 ## Author
 
 Created by [Tilak Bhattarai]
